@@ -52,11 +52,18 @@ body{
     
     font-size: 30px;
     font-weight: 300;
-    padding:10px 5px 5px 5px ;
+    padding:12px 0px 5px 5px 5px ;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:90px;
+}
+
+.form{
+ margin-left: 25px;
 }
 .form2{
+    padding:20px;
     height: 40%;
-   
     display: flex;
     flex-wrap: wrap;
 
@@ -68,4 +75,16 @@ input{
 legend{
     width: 80%;
     font-size: 20px;
+}
+
+.form2 > div {
+    display:flex;
+    flex-direction: column; /* Stacks label on top of input */
+  flex: 0 0 45%;
+
+
+}
+    
+.submit{
+    margin:75px 200px 150px 25px;
 }
