@@ -45,6 +45,10 @@ body{
 }
 
 
+.main{
+ background-color: grey;
+ height: 100vh;
+}
 
 .text{
     height:40%;
@@ -56,10 +60,13 @@ body{
     margin-left: 25px;
     margin-right: 25px;
     margin-top:90px;
+    background-color: grey;
 }
 
 .form{
- margin-left: 25px;
+ padding: 25px;
+ background-color: white;
+ 
 }
 .form2{
     padding:20px;
@@ -70,6 +77,8 @@ body{
 }
 
 input{
+    border: solid black 1px;
+    border-radius: 3%;
     width:40%;
 }
 legend{
@@ -86,5 +95,15 @@ legend{
 }
     
 .submit{
-    margin:75px 200px 150px 25px;
+    margin:75px 200px 0 25px;
+    background-color: grey;
+}
+input:focus{
+    border-color: blue;
+    box-shadow: 0.5;
+}
+
+button{
+    width: 160px;
+    height: 80px;
 }
